@@ -1,0 +1,55 @@
+# --- Data files (regenerate via task1.py / download script) ---
+*.edf
+*.bdf
+*.fif
+*.set
+*.fdt
+*.vhdr
+*.vmrk
+*.eeg
+
+# --- Model artifacts ---
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Project artifacts ---
+_uploads/
+_submission/
+data/
+*.zip
+merged.py
+build_ipynb.py
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Jupyter / notebooks (keep the final one, ignore temp copies) ---
+*.nbconvert.ipynb
+.nbconvert.ipynb
+*.docx
+*~$*
